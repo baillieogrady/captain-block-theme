@@ -1,0 +1,74 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "fonts";
+@import "wordpress";
+
+@import "patterns/jumbotron";
+
+@layer base {
+    body {
+        @apply font-body text-black bg-grey text-sm lg:text-lg;
+        cursor: url('../images/cursor.svg'), auto;
+    }
+
+    h1,
+    h2,
+    h3 {
+        @apply font-bold leading-tight tracking-tight;
+    }
+
+    h1 {
+        @apply text-2.5xl md:text-4xl lg:text-5xl;
+    }
+
+    h2 {
+        @apply text-xl md:text-3xl lg:text-4xl;
+    }
+
+    h3 {
+        @apply text-md md:text-lg lg:text-3xl;
+    }
+
+    a {
+        @apply  md:hover:underline;
+    }
+}
+
+@layer components {
+    .link {
+        @apply md:hover:text-blue;
+    }
+
+    .button {
+        @apply border-2 border-black text-black md:hover:border-blue md:hover:text-blue hover:no-underline rounded-full inline-block py-2 px-4 lg:px-6;
+    }
+
+    .cursor {
+        @apply bg-white border-2 rounded-full border-black lg:flex w-[7rem] h-[7rem] justify-center items-center absolute z-10 pointer-events-none;
+    }
+
+    .sticky-heading {
+        @apply flex justify-between items-center px-5 lg:px-8 border-t border-black sticky top-0 z-10 bg-grey py-4 lg:py-6;
+    }
+
+    .header {
+        @apply mt-5 mb-[4.5rem] lg:mb-36 lg:mt-8;
+        
+    }
+    .header a {
+        @apply no-underline;
+    }
+
+    .navigation {        
+        &__link {
+            @apply opacity-0;
+        }
+    }
+
+    .navigation__link a {
+        cursor: url('../images/next.svg') 56 56, auto;
+        @apply absolute top-0 left-0 z-10 w-full h-full opacity-0;     
+    }
+}

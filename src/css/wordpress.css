@@ -1,0 +1,7 @@
+.wp-block-post-content p {
+    @apply mb-4 lg:mb-8;
+}
+
+.wp-block-captain-container {
+    @apply container;
+}
