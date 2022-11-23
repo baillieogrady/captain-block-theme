@@ -1,8 +1,7 @@
-# Minimo
+# Captain
 
-Minimal WordPress block theme with a gulp development workflow.
+WordPress block theme with a parcel development workflow.
 
 1. Run `npm install`
-2. Change `proxy` variable in `gulpfile.js`
-3. Run `npm run dev` for dev
+3. Run `npm run watch` for dev 
 4. Run `npm run build` to build production assets
