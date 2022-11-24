@@ -1,2 +1,10 @@
-<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
-<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+<!-- wp:group {"className":"flex flex-col min-h-screen"} -->
+<div class="wp-block-group flex flex-col min-h-screen">
+    <!-- wp:template-part {"slug":"header","theme":"captain","tagName":"header","className":"header"} /-->
+
+    <!-- wp:group {"tagName":"main","className":"flex-1","layout":{"inherit":true,"type":"constrained"}} -->
+    <main id="main" class="wp-block-group flex-1"><!-- wp:post-content /--></main>
+    <!-- /wp:group -->
+
+    <!-- wp:template-part {"slug":"footer","theme":"captain","tagName":"footer","className":"footer"} /--></div>
+<!-- /wp:group -->
