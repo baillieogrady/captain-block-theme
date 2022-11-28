@@ -41,8 +41,8 @@
         @apply md:hover:text-blue;
     }
 
-    .btn {
-        @apply border-2 border-black text-black md:hover:border-blue md:hover:text-blue hover:no-underline rounded-full inline-block py-2 px-4 lg:px-6;
+    .button {
+        @apply border-2 border-black text-black md:hover:border-blue md:hover:text-blue hover:no-underline rounded-full inline-block py-2 px-4 lg:px-6 text-sm lg:text-lg;
     }
 
     .cursor {
