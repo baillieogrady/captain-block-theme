@@ -20,7 +20,7 @@
     
             <!-- wp:paragraph -->
             <p>
-                <a href="/" class="button" target="_blank" rel="noreferrer">Button</a>
+                <a href="/" class="btn" target="_blank" rel="noreferrer">Button</a>
             </p>
             <!-- /wp:paragraph -->
         </div>
