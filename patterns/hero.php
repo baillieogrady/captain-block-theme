@@ -13,8 +13,8 @@
     <div class="wp-block-captain-container">
         <!-- wp:group {"className":"px-5 lg:px-8"} -->
         <div class="wp-block-group">
-            <!-- wp:group {"className":"grid grid-cols-4 lg:grid-cols-12 gap-x-5 gap-y-4 md:gap-y-8"} -->
-            <div class="wp-block-group grid grid-cols-4 lg:grid-cols-12 gap-x-5 gap-y-4 md:gap-y-8">
+            <!-- wp:group {"className":"grid grid-cols-4 lg:grid-cols-12 gap-x-5 gap-y-4 lg:gap-y-8"} -->
+            <div class="wp-block-group grid grid-cols-4 lg:grid-cols-12 gap-x-5 gap-y-4 lg:gap-y-8">
                 <!-- wp:group {"className":"col-span-12 lg:col-span-10"} -->
                 <div class="wp-block-group col-span-12 lg:col-span-10">
                     <!-- wp:heading {"className":"wp-block-heading lg:text-6xl", "level":1} -->

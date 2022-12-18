@@ -1,10 +1,7 @@
 module.exports = {
-  // darkMode: 'media',
   content: ["./src/**/*.{js,css}", "./parts/*.html", "./templates/*.html", "./patterns/*.php"],
   theme: {
     screens: {
-      sm: "640px",
-      md: "800px",
       lg: "1440px",
     },
     container: {
@@ -20,25 +17,24 @@ module.exports = {
       },
       colors: {
         black: "#1D1D24",
-        grey: "#EEEEF3",
-        blue: "#0000ff"
+        white: "#FFFFFF",
+        grey: "#F1F1F2",
+        blue: "#0000ff",
       },
       fontSize: {
-        xs: "0.75rem",
-        sm: "1rem",
-        md: "1.125rem",
-        lg: "1.25rem",
-        xl: "1.625rem",
-        "2xl": "2rem",
-        "2.5xl": "2.25rem",
-        "3xl": "2.375rem",
-        "4xl": "3.875rem",
-        "5xl": "6.25rem",
-        "6xl": "7.75rem"
+        'sm': ".875rem",
+        'lg': "1.125rem",
+        'xl': "1.25rem",
+        '2xl': "1.5rem",
+        '3xl': "1.625rem",
+        '4xl': "2.375rem",
+        '5xl': "2.875rem",
+        '6xl': "3.875rem",
+        '9xl': "7.75rem",
       },
       lineHeight: {
         tight: '1.05',
-        snug: '1.4'
+        snug: '1.5'
       },
       letterSpacing: {
         tight: "-0.03em",
