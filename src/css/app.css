@@ -55,8 +55,4 @@
     .cursor {
         @apply bg-white border-2 rounded-full border-black lg:flex w-[7rem] h-[7rem] justify-center items-center absolute z-10 pointer-events-none;
     }
-
-    .sticky-heading {
-        @apply flex justify-between items-center px-5 lg:px-8 border-t border-black sticky top-0 z-10 bg-grey py-4 lg:py-6;
-    }
 }

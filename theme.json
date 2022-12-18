@@ -39,10 +39,6 @@
       "dropCap": false,
       "fontSizes": []
     },
-		"layout": {
-			"contentSize": "1366px",
-			"wideSize": "1366px"
-		},
     "blocks": {
       "core/paragraph": {
         "border": {},
