@@ -1,12 +1,11 @@
 <?php
     /*
     * Title: Sticky heading
-    * Slug: minimo/sticky-heading
-    * Categories: minimo
+    * Slug: captain/sticky-heading
+    * Categories: captain
     * Block types: core
     */
 ?>
-
 
 <!-- wp:group {"className":"flex justify-between items-center border-t border-black sticky top-0 z-10 bg-grey py-4 lg:py-6"} -->
 <div class="wp-block-group border-t border-black sticky top-0 z-10 bg-grey py-4 lg:py-6">
@@ -19,9 +18,7 @@
             <!-- /wp:heading -->
     
             <!-- wp:paragraph -->
-            <p>
-                <a href="/" class="button" target="_blank" rel="noreferrer">Button</a>
-            </p>
+            <p><a href="/" class="button" target="_blank" rel="noreferrer">Button</a></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->

@@ -1,8 +1,8 @@
 <?php
     /*
     * Title: Hero
-    * Slug: minimo/hero
-    * Categories: minimo
+    * Slug: captain/hero
+    * Categories: captain
     * Block types: core
     */
 ?>
