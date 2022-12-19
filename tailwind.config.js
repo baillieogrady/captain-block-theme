@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{js,css}", "./parts/*.html", "./templates/*.html", "./patterns/*.php"],
+  content: ["./src/**/*.{js,css}", "./parts/*.html", "./templates/*.html", "./patterns/*.php", "../captain-block-plugin/src/**/*.{js,css}"],
   theme: {
     screens: {
       lg: "1440px",
