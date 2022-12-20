@@ -47,11 +47,7 @@
     .link {
         @apply lg:hover:text-blue;
     }
-
-    .button {
-        @apply border-2 border-black text-black lg:hover:border-blue lg:hover:text-blue hover:no-underline rounded-full inline-block py-2 px-4 lg:px-6 lg:text-lg;
-    }
-
+    
     .cursor {
         @apply bg-white border-2 rounded-full border-black lg:flex w-[7rem] h-[7rem] justify-center items-center absolute z-10 pointer-events-none;
     }
