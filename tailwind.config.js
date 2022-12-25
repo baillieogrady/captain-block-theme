@@ -1,5 +1,15 @@
 module.exports = {
   content: ["./src/**/*.{js,css}", "./parts/*.html", "./templates/*.html", "./patterns/*.php", "../captain-block-plugin/src/**/*.{js,css}"],
+  safelist: [
+    {
+      pattern: /col-start/,
+      variants: ["lg"]
+    },
+    {
+      pattern: /col-end/,
+      variants: ["lg"]
+    }
+  ],
   theme: {
     screens: {
       lg: "1440px",
