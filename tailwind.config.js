@@ -46,6 +46,9 @@ module.exports = {
         tight: '1.05',
         snug: '1.5'
       },
+      height: {
+        '22': '4.5rem',
+      },
       letterSpacing: {
         tight: "-0.03em",
       },

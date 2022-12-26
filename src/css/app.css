@@ -42,13 +42,3 @@
         @apply no-underline lg:hover:underline;
     }
 }
-
-@layer components {
-    .link {
-        @apply lg:hover:text-blue;
-    }
-    
-    .cursor {
-        @apply bg-white border-2 rounded-full border-black lg:flex w-[7rem] h-[7rem] justify-center items-center absolute z-10 pointer-events-none;
-    }
-}
