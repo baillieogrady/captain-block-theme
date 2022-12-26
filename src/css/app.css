@@ -24,11 +24,11 @@
     }
 
     h1 {
-        @apply text-3xl lg:text-9xl;
+        @apply text-5xl lg:text-9xl;
     }
 
     h2 {
-        @apply text-xl lg:text-6xl;
+        @apply text-3xl lg:text-6xl;
     }
 
     h3,
