@@ -12,7 +12,7 @@
 <!-- /wp:captain/spacer -->
 
 <!-- wp:heading {"level":1} -->
-<h1>Creating custom<br>WordPress themes</h1>
+<h1>Creating custom <br/>WordPress themes</h1>
 <!-- /wp:heading -->
 
 <!-- wp:captain/grid -->
