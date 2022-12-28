@@ -6,7 +6,6 @@
     */
 ?>
 
-
 <!-- wp:captain/grid -->
 <div class="wp-block-captain-grid"><div class="grid grid-cols-12 gap-x-5"><!-- wp:captain/grid-item {"columnStart":6,"columnEnd":9} -->
 <div class="wp-block-captain-grid-item col-start-1 col-end-12 lg:col-start-6 lg:col-end-9"><!-- wp:heading {"level":3} -->
