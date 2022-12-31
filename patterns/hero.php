@@ -12,13 +12,13 @@
 
 <!-- wp:captain/container -->
 <div class="wp-block-captain-container px-5 lg:px-8"><!-- wp:heading {"level":1} -->
-<h1>Creating custom<br>WordPress themes</h1>
+<h1>Creating custom WordPress themes</h1>
 <!-- /wp:heading -->
 
 <!-- wp:captain/grid -->
 <div class="wp-block-captain-grid"><div class="grid grid-cols-12 gap-x-5"><!-- wp:captain/grid-item {"columnEnd":5} -->
 <div class="wp-block-captain-grid-item col-start-1 col-end-12 lg:col-start-1 lg:col-end-5"><!-- wp:captain/lead -->
-<div class="wp-block-captain-lead"><p placeholder="Add text..." class="lg:text-2xl">Freelance WordPress developer based in Manchester, England. Working with Web agencies to transform their client's designs into fast WordPress themes.</p></div>
+<div class="wp-block-captain-lead"><p placeholder="Add text..." class="lg:text-2xl">Duis finibus, mi id auctor eleifend, erat velit finibus neque, vitae varius diam ipsum sit amet libero.</p></div>
 <!-- /wp:captain/lead --></div>
 <!-- /wp:captain/grid-item --></div></div>
 <!-- /wp:captain/grid --></div>
