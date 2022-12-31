@@ -14,10 +14,6 @@
         cursor: url('../images/cursor.svg'), auto;
     }
 
-    main {
-        @apply px-5 lg:px-8;
-    }
-
     h1,
     h2,
     h3,
