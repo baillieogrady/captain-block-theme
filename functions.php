@@ -47,6 +47,12 @@ add_action('init', function () {
 	*/
 	add_image_size( 'card', 791, 446, true );
 
+	
+	/*
+	* Register captain block pattern category
+	*/
+	register_block_pattern_category('captain', array( 'label' => __( 'Captain', 'captain-blocks' )));
+
 
 	/*
 	* Allow custom image sizes to be selected by Gutenberg blocks

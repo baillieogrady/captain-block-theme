@@ -4,14 +4,12 @@
 
 @import "fonts";
 @import "wordpress";
-
-@import "patterns/jumbotron";
+@import "editor";
 
 @layer base {
     body {
         @apply font-body text-black bg-grey leading-snug lg:text-xl;
 
-        cursor: url('../images/cursor.svg'), auto;
     }
 
     h1,
@@ -24,7 +22,7 @@
     }
 
     h1 {
-        @apply text-5xl lg:text-9xl;
+        @apply text-5xl lg:text-9xl mb-4 lg:mb-12;
     }
 
     h2 {
@@ -35,10 +33,26 @@
     h4,
     h5,
     h6 {
-        @apply text-lg lg:text-4xl;
+        @apply text-lg lg:text-4xl mb-2 lg:mb-4;
     }
 
     a {
         @apply no-underline lg:hover:underline;
+    }
+
+    /* editor */
+    /* recover editor UI stylign that Tailiwind breaks */
+    button.is-primary {
+        background-color: var(--wp-admin-theme-color);
+    }
+
+    .block-editor-warning {
+        border: 1px solid #1e1e1e;
+    }   
+}
+
+@layer components {
+    .custom-cursor {
+        cursor: url('../images/cursor.svg') 8 8, auto;
     }
 }
