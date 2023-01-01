@@ -21,7 +21,7 @@ remove_action( 'wp_body_open', 'wp_global_styles_render_svg_filters' );
 */
 add_action('init', function () {
 	add_theme_support('editor-styles');
-	add_editor_style( 'dist/editor.css' );
+	add_editor_style( 'dist/app.css' );
 
 
 	/*

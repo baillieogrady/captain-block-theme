@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "clean": "rm -r dist/",
-    "start": "parcel watch src/app.js src/editor.js",
-    "build": "parcel build src/app.js src/editor.js"
+    "start": "parcel watch src/app.js",
+    "build": "parcel build src/app.js"
   },
   "repository": {
     "type": "git",

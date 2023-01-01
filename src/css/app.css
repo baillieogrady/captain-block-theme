@@ -10,7 +10,6 @@
     body {
         @apply font-body text-black bg-grey leading-snug lg:text-xl;
 
-        cursor: url('../images/cursor.svg') 8 8, auto;
     }
 
     h1,
@@ -39,5 +38,21 @@
 
     a {
         @apply no-underline lg:hover:underline;
+    }
+
+    /* editor */
+    /* recover editor UI stylign that Tailiwind breaks */
+    button.is-primary {
+        background-color: var(--wp-admin-theme-color);
+    }
+
+    .block-editor-warning {
+        border: 1px solid #1e1e1e;
+    }   
+}
+
+@layer components {
+    .custom-cursor {
+        cursor: url('../images/cursor.svg') 8 8, auto;
     }
 }
