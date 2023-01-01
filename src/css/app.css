@@ -4,8 +4,7 @@
 
 @import "fonts";
 @import "wordpress";
-
-@import "patterns/jumbotron";
+@import "editor";
 
 @layer base {
     body {
@@ -35,7 +34,7 @@
     h4,
     h5,
     h6 {
-        @apply text-lg lg:text-4xl;
+        @apply text-lg lg:text-4xl mb-2 lg:mb-4;
     }
 
     a {
