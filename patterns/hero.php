@@ -11,7 +11,7 @@
 <!-- /wp:captain/spacer -->
 
 <!-- wp:captain/container -->
-<div class="wp-block-captain-container px-5 lg:px-8"><!-- wp:heading -->
+<div class="wp-block-captain-container px-5 lg:px-8"><!-- wp:heading {"level":1} -->
 <h1>Creating custom WordPress themes</h1>
 <!-- /wp:heading -->
 
