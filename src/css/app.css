@@ -11,7 +11,7 @@
     body {
         @apply font-body text-black bg-grey leading-snug lg:text-xl;
 
-        cursor: url('../images/cursor.svg'), auto;
+        cursor: url('../images/cursor.svg') 8 8, auto;
     }
 
     h1,

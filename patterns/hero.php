@@ -17,8 +17,8 @@
 
 <!-- wp:captain/grid -->
 <div class="wp-block-captain-grid"><div class="grid grid-cols-12 gap-x-5"><!-- wp:captain/grid-item {"columnEnd":5} -->
-<div class="wp-block-captain-grid-item col-start-1 col-end-12 lg:col-start-1 lg:col-end-5"><!-- wp:captain/lead -->
-<div class="wp-block-captain-lead"><p placeholder="Add text..." class="lg:text-2xl">Duis finibus, mi id auctor eleifend, erat velit finibus neque, vitae varius diam ipsum sit amet libero.</p></div>
+<div class="wp-block-captain-grid-item col-start-1 col-end-13 lg:col-start-1 lg:col-end-5"><!-- wp:captain/lead -->
+<div class="wp-block-captain-lead"><p placeholder="Add text..." class="lg:text-2xl"> Duis finibus, mi id auctor eleifend, erat velit finibus neque, vitae varius diam ipsum sit amet libero.</p></div>
 <!-- /wp:captain/lead --></div>
 <!-- /wp:captain/grid-item --></div></div>
 <!-- /wp:captain/grid --></div>
